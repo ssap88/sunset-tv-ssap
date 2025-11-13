@@ -160,6 +160,80 @@ export default function SunsetLanding() {
 
       {/* CONTENIDO */}
       <main style={{ paddingTop: "86px" }}>
+        {/* ANUNCIO FIRE TV STICK */}
+<section
+  style={{
+    maxWidth: "1100px",
+    margin: "0 auto",
+    marginBottom: "30px",
+    padding: "16px",
+    marginTop: "10px",
+    borderRadius: "12px",
+    display: "flex",
+    alignItems: "center",
+    gap: "16px",
+    background:
+      "linear-gradient(90deg, rgba(255,45,154,0.25), rgba(24,209,255,0.25))",
+    border: "1px solid rgba(255,255,255,0.15)",
+    backdropFilter: "blur(10px)",
+  }}
+>
+  <img
+    src="https://m.media-amazon.com/images/I/51ZhmXwx7qL._AC_SL1500_.jpg"
+    alt="Fire TV Stick"
+    style={{
+      width: "90px",
+      height: "90px",
+      objectFit: "contain",
+      borderRadius: "10px",
+      background: "rgba(0,0,0,0.3)",
+      padding: "6px",
+    }}
+  />
+
+  <div style={{ flex: 1 }}>
+    <h3
+      style={{
+        margin: 0,
+        fontSize: "17px",
+        fontWeight: 700,
+        color: "#fff",
+        textShadow: "0 0 8px rgba(255,255,255,0.4)",
+      }}
+    >
+      ¿No tienes dispositivo para usar Sunset TV?
+    </h3>
+
+    <p
+      style={{
+        margin: "6px 0 0 0",
+        color: "#e5e5e5",
+        fontSize: "14px",
+      }}
+    >
+      Te vendo un Fire TV Stick con la app instalada y lista para usar.
+      Solo es conectar y disfrutar. Entrega inmediata.
+    </p>
+  </div>
+
+  <a
+    href="https://wa.me/525635119772?text=Hola,%20quiero%20información%20sobre%20el%20Fire%20TV%20Stick%20con%20la%20app%20de%20Sunset%20TV."
+    target="_blank"
+    rel="noreferrer"
+    style={{
+      background: "linear-gradient(90deg,#ff2d9a,#18d1ff)",
+      padding: "10px 18px",
+      borderRadius: "999px",
+      color: "#000",
+      fontWeight: "700",
+      fontSize: "13px",
+      textDecoration: "none",
+      whiteSpace: "nowrap",
+    }}
+  >
+    Ver precio
+  </a>
+</section>
         {/* HERO */}
         <section style={maxWidth}>
           <div
