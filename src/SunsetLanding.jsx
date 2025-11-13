@@ -190,7 +190,7 @@ export default function SunsetLanding() {
                 }}
               >
                 Películas, series, deportes y canales en vivo, todo en un solo
-                lugar. Calidad HD/4K, múltiples dispositivos y soporte rápido
+                lugar. Calidad HD/4K, múltiples dispositivos, petición de peliculas y series y soporte rápido
                 por WhatsApp.
               </p>
 
@@ -358,8 +358,8 @@ export default function SunsetLanding() {
                 precio: "$250 MXN/mes",
                 detalles: [
                   "Canales en vivo",
-                  "Reproducción HD",
-                  "1 pantalla simultánea",
+                  "Peliculas y Series",
+                  "3 pantallas simultáneas",
                 ],
               },
               {
@@ -367,16 +367,16 @@ export default function SunsetLanding() {
                 precio: "$660 MXN/3 meses",
                 detalles: [
                   "Canales en vivo",
-                  "Reproducción 4K",
-                  "2 pantallas simultáneas",
+                  "Peliculas y Series",
+                  "3 pantallas simultáneas",
                 ],
               },
               {
                 nombre: "Semestral (Ahorra 20%)",
                 precio: "$1,200 MXN/6 meses",
                 detalles: [
-                  "Todo incluido",
-                  "4K y descargas",
+                  "Canales en vivo",
+                  "Peliculas y Series",
                   "3 pantallas simultáneas",
                 ],
               },
@@ -384,8 +384,8 @@ export default function SunsetLanding() {
                 nombre: "Anual (Mejor valor)",
                 precio: "$2,220 MXN/año",
                 detalles: [
-                  "Todo incluido",
-                  "4K y descargas",
+                  "Canales en Vivo",
+                  "Peliculas y Series",
                   "3 pantallas simultáneas",
                 ],
               },
@@ -593,9 +593,8 @@ export default function SunsetLanding() {
                 ¿Puedo usar Sunset TV en mi Smart TV?
               </summary>
               <p style={{ marginTop: "8px", fontSize: "13px" }}>
-                Sí, puedes utilizarlo en navegadores de Smart TV, dispositivos
-                de streaming (Chromecast, etc.) y en celulares, tablets y
-                computadoras.
+                Sí, puedes utilizarlo en algunas Smart TV, dispositivos
+                de streaming (Fire tv Stick, Chromecast y dispositivos android.) en celulares y tablets (Android & IOs).
               </p>
             </details>
 
@@ -614,9 +613,7 @@ export default function SunsetLanding() {
                 ¿Puedo cancelar cuando quiera?
               </summary>
               <p style={{ marginTop: "8px", fontSize: "13px" }}>
-                Los planes mensuales se pueden cancelar cuando lo necesites. En
-                planes más largos se aplican condiciones que te explicamos al
-                suscribirte.
+                No son planes forzosos, contrata el pedido que elijas 
               </p>
             </details>
 
