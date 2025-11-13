@@ -613,7 +613,7 @@ export default function SunsetLanding() {
                 ¿Puedo cancelar cuando quiera?
               </summary>
               <p style={{ marginTop: "8px", fontSize: "13px" }}>
-                No son planes forzosos, contrata el pedido que elijas 
+                No son planes forzosos, contrata el periodo que elijas. 
               </p>
             </details>
 
