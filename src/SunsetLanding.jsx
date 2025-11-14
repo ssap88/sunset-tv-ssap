@@ -409,7 +409,72 @@ export default function SunsetLanding() {
             </div>
           </div>
         </section>
+</section>
 
+        {/* IMAGEN DESTACADA */}
+        <section
+          style={{
+            ...maxWidth,
+            marginTop: "26px",
+            marginBottom: "10px",
+          }}
+        >
+          <div
+            style={{
+              ...cardStyle,
+              display: "grid",
+              gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)",
+              gap: "18px",
+              alignItems: "center",
+            }}
+          >
+            <div>
+              <h2
+                style={{
+                  fontSize: "22px",
+                  fontWeight: 700,
+                  marginBottom: "8px",
+                }}
+              >
+                Disfruta tu contenido en la mejor calidad
+              </h2>
+              <p
+                style={{
+                  fontSize: "14px",
+                  color: "#e0e0e0",
+                }}
+              >
+                Sunset TV se adapta a tus dispositivos para que puedas ver
+                películas, series y deportes donde quieras. Solo necesitas
+                conexión a internet y listo.
+              </p>
+            </div>
+
+            <div
+              style={{
+                borderRadius: "12px",
+                overflow: "hidden",
+                border: "1px solid rgba(255,255,255,0.15)",
+                background: "#000",
+              }}
+            >
+              <img
+                src="https://i.ibb.co/8LVpcLZY/Screenshot-20251113-185444-Sunset.jpg"
+                alt="Contenido Sunset TV"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  maxHeight: "220px",
+                  objectFit: "cover",
+                  display: "block",
+                }}
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* PLANES */}
+        <section id="planes" style={{ ...maxWidth, marginTop: "40px" }}>
         {/* PLANES */}
         <section id="planes" style={{ ...maxWidth, marginTop: "40px" }}>
           <h2 style={sectionTitle}>Planes</h2>
