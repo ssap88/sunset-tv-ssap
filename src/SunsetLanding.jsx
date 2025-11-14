@@ -496,7 +496,7 @@ export default function SunsetLanding() {
                   marginBottom: "8px",
                 }}
               >
-                Nuevo Fire TV Stick disponible
+                El mejor entretenimiento en tu hogar o negocio
               </h2>
               <p
                 style={{
@@ -504,8 +504,7 @@ export default function SunsetLanding() {
                   color: "#e0e0e0",
                 }}
               >
-                También puedo venderte un Fire TV Stick con la app ya instalada
-                y lista para usar. Solo conecta y disfruta.
+                Sistema amigable, por categorías y eventos 
               </p>
             </div>
 
@@ -518,7 +517,7 @@ export default function SunsetLanding() {
               }}
             >
               <img
-                src="https://i.ibb.co/1YtyCBmL/Screenshot-20251113-181715-Amazon-Shopping.jpg"
+                src="https://i.ibb.co/8LVpcLZY/Screenshot-20251113-185444-Sunset.jpg"
                 alt="Fire TV Stick"
                 style={{
                   width: "100%",
