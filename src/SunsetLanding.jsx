@@ -178,7 +178,6 @@ export default function SunsetLanding() {
     backdropFilter: "blur(10px)",
   }}
 >
-  <img
   <div
     style={{
       width: "90px",
