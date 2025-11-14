@@ -179,17 +179,25 @@ export default function SunsetLanding() {
   }}
 >
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Amazon_Fire_TV_Stick_with_Remote.jpg/640px-Amazon_Fire_TV_Stick_with_Remote.jpg"
-    alt="Fire TV Stick"
+  <div
     style={{
       width: "90px",
       height: "90px",
-      objectFit: "contain",
       borderRadius: "10px",
-      background: "rgba(0,0,0,0.3)",
+      background:
+        "radial-gradient(circle at top, rgba(255,255,255,0.25), transparent 65%), #000",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      fontSize: "11px",
+      textAlign: "center",
       padding: "6px",
+      color: "#ffffff",
+      border: "1px solid rgba(255,255,255,0.25)",
     }}
-  />
+  >
+    Fire TV Stick
+  </div>
 
   <div style={{ flex: 1 }}>
     <h3
