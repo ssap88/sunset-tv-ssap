@@ -458,7 +458,7 @@ export default function SunsetLanding() {
               }}
             >
               <img
-                src="https://i.ibb.co/1YtyCBmL/Screenshot-20251113-181715-Amazon-Shopping.jpg"
+                src="https://i.ibb.co/HcWVWSq/android-vs-ios-cuales-son-sus-diferencias.jpg"
                 alt="Contenido Sunset TV"
                 style={{
                   width: "100%",
