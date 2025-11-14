@@ -263,7 +263,7 @@ export default function SunsetLanding() {
                 }}
               >
                 Películas, series, deportes y canales en vivo, todo en un solo
-                lugar. Calidad HD/4K, múltiples dispositivos, petición de peliculas y series y soporte rápido
+                lugar. Calidad HD/4K, múltiples dispositivos y soporte rápido
                 por WhatsApp.
               </p>
 
@@ -409,7 +409,6 @@ export default function SunsetLanding() {
             </div>
           </div>
         </section>
-</section>
 
         {/* IMAGEN DESTACADA */}
         <section
@@ -459,7 +458,7 @@ export default function SunsetLanding() {
               }}
             >
               <img
-                src="https://i.ibb.co/8LVpcLZY/Screenshot-20251113-185444-Sunset.jpg"
+                src="https://i.ibb.co/1YtyCBmL/Screenshot-20251113-181715-Amazon-Shopping.jpg"
                 alt="Contenido Sunset TV"
                 style={{
                   width: "100%",
@@ -472,6 +471,9 @@ export default function SunsetLanding() {
             </div>
           </div>
         </section>
+
+        {/* PLANES */}
+        <section id="planes" style={{ ...maxWidth, marginTop: "40px" }}>
 
         {/* PLANES */}
         <section id="planes" style={{ ...maxWidth, marginTop: "40px" }}>
