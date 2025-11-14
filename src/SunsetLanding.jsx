@@ -178,25 +178,17 @@ export default function SunsetLanding() {
     backdropFilter: "blur(10px)",
   }}
 >
-  <div
+  <img
+    src="https://ibb.co/HLfwcRHV"
+    alt="Fire TV Stick"
     style={{
       width: "90px",
       height: "90px",
+      objectFit: "cover",
       borderRadius: "10px",
-      background:
-        "radial-gradient(circle at top, rgba(255,255,255,0.25), transparent 65%), #000",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      fontSize: "11px",
-      textAlign: "center",
-      padding: "6px",
-      color: "#ffffff",
-      border: "1px solid rgba(255,255,255,0.25)",
+      background: "rgba(0,0,0,0.3)",
     }}
-  >
-    Fire TV Stick
-  </div>
+  />
 
   <div style={{ flex: 1 }}>
     <h3
