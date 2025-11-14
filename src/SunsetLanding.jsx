@@ -179,7 +179,7 @@ export default function SunsetLanding() {
   }}
 >
   <img
-    src="[url=https://ibb.co/HLfwcRHV][img]https://i.ibb.co/HLfwcRHV/Screenshot-20251113-181715-Amazon-Shopping.jpg[/img][/url]"
+    src="https://ibb.co/HLfwcRHV][img]https://i.ibb.co/HLfwcRHV/Screenshot-20251113-181715-Amazon-Shopping.jpg"
     alt="Fire TV Stick"
     style={{
       width: "90px",
