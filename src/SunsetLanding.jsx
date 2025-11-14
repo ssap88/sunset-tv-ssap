@@ -471,12 +471,67 @@ export default function SunsetLanding() {
             </div>
           </div>
         </section>
+{/* IMAGEN DESTACADA */}
+        <section
+          style={{
+            ...maxWidth,
+            marginTop: "26px",
+            marginBottom: "10px",
+          }}
+        >
+          <div
+            style={{
+              ...cardStyle,
+              display: "grid",
+              gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)",
+              gap: "18px",
+              alignItems: "center",
+            }}
+          >
+            <div>
+              <h2
+                style={{
+                  fontSize: "22px",
+                  fontWeight: 700,
+                  marginBottom: "8px",
+                }}
+              >
+                Nuevo Fire TV Stick disponible
+              </h2>
+              <p
+                style={{
+                  fontSize: "14px",
+                  color: "#e0e0e0",
+                }}
+              >
+                También puedo venderte un Fire TV Stick con la app ya instalada
+                y lista para usar. Solo conecta y disfruta.
+              </p>
+            </div>
 
-        {/* PLANES */}
-        <section id="planes" style={{ ...maxWidth, marginTop: "40px" }}>
-
-        {/* PLANES */}
-        <section id="planes" style={{ ...maxWidth, marginTop: "40px" }}>
+            <div
+              style={{
+                borderRadius: "12px",
+                overflow: "hidden",
+                border: "1px solid rgba(255,255,255,0.15)",
+                background: "#000",
+              }}
+            >
+              <img
+                src="https://i.ibb.co/1YtyCBmL/Screenshot-20251113-181715-Amazon-Shopping.jpg"
+                alt="Fire TV Stick"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  maxHeight: "220px",
+                  objectFit: "cover",
+                  display: "block",
+                }}
+              />
+            </div>
+          </div>
+        </section>
+        
         {/* PLANES */}
         <section id="planes" style={{ ...maxWidth, marginTop: "40px" }}>
           <h2 style={sectionTitle}>Planes</h2>
