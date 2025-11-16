@@ -110,7 +110,7 @@ export default function SunsetLanding() {
 >
   {/* LOGO */}
   <img
-    src="https://i.ibb.co/ORqtPDNJ/9a65b689b4e4.png"
+    src="https://i.ibb.co/0RqtPDNJ/9a65ec-f0895f59965d49af8a88ce3119dc285c-mv2.png"
     alt="Sunset TV Logo"
     style={{
       width: "130px",
