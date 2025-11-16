@@ -161,7 +161,7 @@ export default function SunsetLanding() {
 </header>
 
       {/* CONTENIDO */}
-      <main style={{ paddingTop: "120px" }}>
+      <main style={{ paddingTop: "160px" }}>
         {/* ANUNCIO FIRE TV STICK */}
 <section
   style={{
