@@ -91,6 +91,24 @@ export default function SunsetLanding() {
     <div style={pageStyle}>
       {/* NAVBAR SIMPLE */}
       <header
+        <div
+  style={{
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    padding: "10px 0",
+  }}
+>
+  <img
+    src="https://i.ibb.co/0RqtPDNJ/9a65ec-f0895f59965d49af8a88ce3119dc285c-mv2.png"
+    alt="Sunset TV Logo"
+    style={{
+      width: "130px",
+      height: "auto",
+      filter: "drop-shadow(0 0 8px rgba(255,0,255,0.6))",
+    }}
+  />
+</div>
         style={{
           position: "fixed",
           top: 0,
