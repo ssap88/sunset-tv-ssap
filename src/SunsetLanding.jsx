@@ -90,91 +90,75 @@ export default function SunsetLanding() {
   return (
     <div style={pageStyle}>
       {/* NAVBAR SIMPLE */}
-      <header
-        <div
+      {/* NAVBAR CON LOGO CENTRADO */}
+<header
   style={{
-    width: "100%",
-    display: "flex",
-    justifyContent: "center",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 50,
+    background: "rgba(0,0,0,0.75)",
+    borderBottom: "1px solid rgba(255,255,255,0.1)",
+    backdropFilter: "blur(12px)",
     padding: "10px 0",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "8px",
   }}
 >
+  {/* LOGO */}
   <img
-    src="https://i.ibb.co/0RqtPDNJ/9a65ec-f0895f59965d49af8a88ce3119dc285c-mv2.png"
+    src="https://i.ibb.co/ORqtPDNJ/9a65b689b4e4.png"
     alt="Sunset TV Logo"
     style={{
       width: "130px",
       height: "auto",
-      filter: "drop-shadow(0 0 8px rgba(255,0,255,0.6))",
     }}
   />
-</div>
-        style={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          right: 0,
-          zIndex: 50,
-          background: "rgba(0,0,0,0.7)",
-          borderBottom: "1px solid rgba(255,255,255,0.08)",
-          backdropFilter: "blur(10px)",
-        }}
-      >
-        <div
-          style={{
-            ...maxWidth,
-            paddingTop: "10px",
-            paddingBottom: "10px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-          }}
-        >
-          <div>
-            <div style={{ fontWeight: 700, fontSize: "18px" }}>Sunset TV</div>
-            <div style={{ fontSize: "11px", color: "#c0c0c0" }}>
-              Disfruta el mejor contenido sin límites
-            </div>
-          </div>
 
-          <nav
-            style={{
-              display: "flex",
-              gap: "12px",
-              fontSize: "13px",
-              alignItems: "center",
-            }}
-          >
-            <a
-              href="#planes"
-              style={{ color: "#e0e0e0", textDecoration: "none" }}
-            >
-              Planes
-            </a>
-            <a
-              href="#como-funciona"
-              style={{ color: "#e0e0e0", textDecoration: "none" }}
-            >
-              Cómo funciona
-            </a>
-            <a
-              href="#testimonios"
-              style={{ color: "#e0e0e0", textDecoration: "none" }}
-            >
-              Testimonios
-            </a>
-            <a
-              href="#faq"
-              style={{ color: "#e0e0e0", textDecoration: "none" }}
-            >
-              Preguntas
-            </a>
-            <a href={waLink} style={buttonStyle} target="_blank" rel="noreferrer">
-              👉 Suscríbete ahora
-            </a>
-          </nav>
-        </div>
-      </header>
+  {/* MENÚ */}
+  <nav
+    style={{
+      display: "flex",
+      gap: "18px",
+      fontSize: "14px",
+    }}
+  >
+    <a href="#planes" style={{ color: "#ffffff", textDecoration: "none" }}>
+      Planes
+    </a>
+    <a href="#como-funciona" style={{ color: "#ffffff", textDecoration: "none" }}>
+      Cómo funciona
+    </a>
+    <a href="#testimonios" style={{ color: "#ffffff", textDecoration: "none" }}>
+      Testimonios
+    </a>
+    <a href="#preguntas" style={{ color: "#ffffff", textDecoration: "none" }}>
+      Preguntas
+    </a>
+  </nav>
+
+  {/* BOTÓN */}
+  <a
+    href={waLink}
+    target="_blank"
+    rel="noreferrer"
+    style={{
+      padding: "8px 16px",
+      borderRadius: "999px",
+      background: "linear-gradient(90deg, #ff2d9a, #18d1ff)",
+      color: "#000",
+      fontWeight: 700,
+      fontSize: "13px",
+      textDecoration: "none",
+      whiteSpace: "nowrap",
+    }}
+  >
+    Suscríbete ahora
+  </a>
+</header>
 
       {/* CONTENIDO */}
       <main style={{ paddingTop: "86px" }}>
