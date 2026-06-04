@@ -112,4 +112,4 @@ export default function SunsetLanding() {
       Por favor vuelve a visitarnos más tarde.
     </p>
   </div>
-);
+export default SunsetLanding
